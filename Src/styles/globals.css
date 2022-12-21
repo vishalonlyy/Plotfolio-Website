@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --Vishal_white: white;
+    --Vishal_black: black;
+    --Vishal_Transparent: rgba(255, 255, 255, 0);
+    --color1: pink;
+    --color2: blue;
+    --color3:yellow;
+    --color4:green;
+}

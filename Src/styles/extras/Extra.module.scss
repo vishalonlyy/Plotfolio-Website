@@ -1,0 +1,39 @@
+.table, .th, .td {
+    border: 1px solid;
+  }
+
+  .Avataar_Links{
+    
+  }
+
+  .Avataar_Links:hover{
+    color: red;
+  }
+
+  .Nav_Styler__Effects{
+text-decoration: none;
+font-weight: 500;
+word-spacing: '2px';
+  }
+
+  .Nav_Styler__Effects:hover{
+    text-decoration: none;
+  }
+
+
+  .Soon{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50%;
+    margin-left: 30%;
+  }
+
+  .Soon_P{
+    text-align: center;
+    color: rgb(253, 243, 243);
+    font-weight: 500;
+    font-size: large;
+  }

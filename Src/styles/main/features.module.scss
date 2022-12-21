@@ -1,0 +1,99 @@
+.Features_Display{
+    display: grid;
+}
+
+
+.Features{
+    
+}
+@keyframes css_animate_wave_linear_fast_effect_float {
+    0%,100%
+    {
+        transform: translateY(50px);
+    }  
+    50%{
+        transform: translateY(100px);
+    }  
+    }
+    @keyframes css_animate_wave_effect_float{
+      0%
+      {
+        transform:translatey(0px)
+      }
+      50%
+      {
+        transform:translatey(-20px)
+      }
+      100%
+      {
+        transform:translatey(0px)
+      }
+  }
+
+
+.ImageAlign_Right_GRID{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-column-gap: 1em;
+    margin-left: 4.5%;
+    grid-area: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.ImageAlign_Left_GRID{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-column-gap: 1em;
+    margin-left: 4.5%;
+    grid-area: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.Images_Left{
+    width: 500px;
+    height: 500px;
+    transform: translatey(0px);
+    animation: css_animate_wave_effect_float 5s ease-in-out infinite;
+}
+.Images{
+    width: 500px;
+    height: 500px;
+    transform: translatey(0px);
+    animation: css_animate_wave_effect_float 5s ease-in-out infinite;
+}
+/******                            Features Heading */
+.Features_Headings{
+    text-align: center;
+    justify-content: center;
+    
+}
+/********************************************Responsive for [
+    Images From Features ,
+            Images
+]*/
+@media (max-width: 992px) {
+    .ImageAlign_Right_GRID {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 1em;
+        margin-left: 4.5%;
+        grid-area: 300px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Images_Align_Left_GRID {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 1em;
+        margin-left: 4.5%;
+        grid-area: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Images{
+        width: 525px;
+        
+    }
+    
+  }

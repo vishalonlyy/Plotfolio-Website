@@ -1,0 +1,27 @@
+.Pack1{
+    background-color: aqua;
+    width: auto;
+    height: 300px;
+    position: fixed;
+    float: left;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1%;
+}
+.Pack2{
+    background-color: beige;
+    position: fixed;
+    float: left;
+    border: 1px solid green;
+}
+
+.NoAnimation{
+    border: 1px solid red;
+}
+
+
+.La{ cursor:pointer; user-select:none; }
+
+.in:checked + .Sp::before {
+  content: '';
+}
