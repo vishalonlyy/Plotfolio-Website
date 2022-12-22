@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Box,Flex,Avatar,HStack,Link,IconButton,Button,Menu,MenuButton,MenuList,MenuItem,MenuDivider,useDisclosure,useColorModeValue,Stack,MenuOptionGroup,MenuItemOption,background,color,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-import * as Custom_Pack from '../pages/themes/Custom_theme';import NextLink from 'next/link'
+import * as Custom_Pack from './themes/Custom_theme';import NextLink from 'next/link'
 const Links = ['Dashboard', 'Projects', 'Team'];
 import Styler_ from '../styles/extras/Extra.module.scss'
 

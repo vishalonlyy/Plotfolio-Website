@@ -14,8 +14,8 @@ import {
   import { ReactNode } from 'react';
   import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
   import { BiMailSend } from 'react-icons/bi';
-import * as Theme from '../pages/themes/Custom_theme'
-  import Theme_ from '../pages/themes/Custom_theme'
+import * as Theme from './themes/Custom_theme'
+  import Theme_ from './themes/Custom_theme'
   const Logo = (props: any) => {
     return (
       

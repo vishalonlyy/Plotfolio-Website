@@ -4,7 +4,7 @@ import {
   SunIcon
 } from '@chakra-ui/icons';
 import { Fade, ScaleFade, Slide, SlideFade } from '@chakra-ui/react'
-import * as Redirect from '../pages/themes/redirects'
+import * as Redirect from './themes/redirects'
 import Main_Design from '../styles/main/main.module.scss'
 import Features_Design from '../styles/main/features.module.scss'
 import Drawer from '../styles/components/Drawer.module.scss'
@@ -17,8 +17,8 @@ import Vishal from '../styles/Vishal/main/main.module.scss'
 import React, {useState} from 'react'
 import { ColorModeScript } from "@chakra-ui/react"
 
-import theme from '../pages/themes/chakara'
-import * as ThemePack from '../pages/themes/Custom_theme'
+import theme from './themes/chakara'
+import * as ThemePack from './themes/Custom_theme'
 
 // part 
 import { Navigation } from './navbar'
