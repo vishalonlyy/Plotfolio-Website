@@ -1,7 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
 .Conatiner_Background_Property_{
-    background-image: url(../../../../public/images/Vishal_Back.jpg);
+    background-image: url(../../../public/images/Vishal_Back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,13 +14,13 @@
 /*****Animations*****/
 @keyframes ChangeBackground{
     0%{
-        background-image: url(../../../../public/images/Vishal_Back2.jpg);
+        background-image: url(../../../public/images/Vishal_Back2.jpg);
     }
     40%{
-        background-image: url(../../../../public/images/Vishal_Back3.jpg);
+        background-image: url(../../../public/images/Vishal_Back3.jpg);
     }
     100%{
-        background-image: url(../../../../public/images/Vishal_Back2.jpg);
+        background-image: url(../../../public/images/Vishal_Back2.jpg);
     }
     
     
