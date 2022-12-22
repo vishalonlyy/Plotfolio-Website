@@ -16,7 +16,7 @@ import Styler_ from '../styles/main/Styler.module.scss'
 import Vishal from '../styles/Vishal/main/main.module.scss'
 import React, {useState} from 'react'
 import { ColorModeScript } from "@chakra-ui/react"
-import NextDocument, { Html, Head, Main, NextScript } from "next/document"
+
 import theme from '../pages/themes/chakara'
 import * as ThemePack from '../pages/themes/Custom_theme'
 
