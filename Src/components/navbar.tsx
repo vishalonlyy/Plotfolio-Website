@@ -2,26 +2,7 @@ import { ReactNode } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { faCheckCircle, faGear,faCross,faClose } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  Box,
-  Flex,
-  Avatar,
-  HStack,
-  Link,
-  IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
-  useColorModeValue,
-    Stack,
-    MenuOptionGroup,
-  MenuItemOption,
-  background,
-  color,
+import {Box,Flex,Avatar,HStack,Link,IconButton,Button,Menu,MenuButton,MenuList,MenuItem,MenuDivider,useDisclosure,useColorModeValue,Stack,MenuOptionGroup,MenuItemOption,background,color,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import * as Custom_Pack from '../pages/themes/Custom_theme';import NextLink from 'next/link'
@@ -29,9 +10,9 @@ const Links = ['Dashboard', 'Projects', 'Team'];
 import Styler_ from '../styles/extras/Extra.module.scss'
 
 
-const Support = 'https://discord.com/invite/';
+const Contact = 'https://discord.com/invite/';
 const Home = '/'
-const Add_Me = 'https://discord.com'
+const Projects = 'https://discord.com'
 
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
@@ -54,7 +35,7 @@ export function Navigation() {
 
   return (
     <>
-      <Box bg={useColorModeValue(Custom_Pack.default.Theme.Main_Color,'black')} px={4}>
+      <Box bg={useColorModeValue('transparent','black')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           {/********** */}
           <HStack spacing={20} alignItems={'center'}>
@@ -64,11 +45,11 @@ export function Navigation() {
               as={'nav'}
               spacing={10}
                           display={{ base: 'none', md: 'flex' }}>
-              <Avatar src='/images/Vishal.jpg' size={'md'} marginLeft=''><Link href='/' className={Styler_.Avataar_Links} style={{'textDecoration':'none'}}>Muzox</Link></Avatar>
+              <Avatar src='/images/Vishal.jpg' size={'md'} marginLeft=''><Link href='/' className={Styler_.Avataar_Links} style={{'textDecoration':'none'}}>Vishal </Link></Avatar>
               <Box> </Box>
-                      <Link href={Home} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Home</Link>
-              <Link href={Add_Me} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Invite Me</Link>
-              <Link href={Support} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Support</Link>
+                      {/*<Link href={Home} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Home</Link>*/}
+              <Link href={Projects} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Projects</Link>
+              <Link href={Contact} className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Contact</Link>
               <Link href='/status' className={Styler_.Nav_Styler__Effects} style={{'textDecoration':'none'}}>Status</Link>
              
             </HStack>
@@ -95,9 +76,9 @@ export function Navigation() {
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }} color='white'>
             <Stack as={'nav'} spacing={4}>
-              <Link href={Home} style={{ 'textDecoration': 'none' }}>Home</Link>
-              <Link href={Add_Me} style={{ 'textDecoration': 'none' }}>Invite Me</Link>
-              <Link href={Support} style={{ 'textDecoration': 'none' }}>Support</Link>
+              {/*<Link href={Home} style={{ 'textDecoration': 'none' }}>Home</Link>*/}
+              <Link href={Projects} style={{ 'textDecoration': 'none' }}>Projects</Link>
+              <Link href={Contact} style={{ 'textDecoration': 'none' }}>Contact</Link>
               <Link href='/satus' style={{ 'textDecoration': 'none' }}>Status</Link>
               
             </Stack>

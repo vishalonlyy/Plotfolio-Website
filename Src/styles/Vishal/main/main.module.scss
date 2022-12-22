@@ -84,6 +84,38 @@
     border: 1px solid rgb(132, 0, 255);}
     100%{box-shadow: 1px -0px 50px  rgba(132, 0, 255, 0.548);}
   }
+  @keyframes Empty_BallAnimation{
+5%{
+    background-image: linear-gradient(rgb(47, 0, 255),rgb(235, 88, 240));
+}
+100%{
+    background-image: linear-gradient(rgb(235, 88, 240), rgb(47, 0, 255));
+}
+  }
+  @keyframes FastFloat {
+    0%,100%
+    {
+        transform: translateY(50px);
+    }  
+    50%{
+        transform: translateY(100px);
+    }  
+    }
+    @keyframes NFloat{
+      0%
+      {
+        transform:translatey(0px)
+      }
+      50%
+      {
+        transform:translatey(-20px)
+      }
+      100%
+      {
+        transform:translatey(0px)
+      }
+  }
+
 /****************Main_Frame*/
 .Main_Frame{
     display: grid;
@@ -262,12 +294,29 @@ color: #f1f1f1;
   background-image: linear-gradient(rgb(235, 88, 240), rgb(47, 0, 255));
   border-radius: 50%;
   display: inline-block;
+  animation: Empty_BallAnimation 5s infinite;
 }
 
 
-
-
-
+/**********************Projects Section*****************/
+.Projects_Section{
+    margin-top: 5%;
+}
+.P_Grid{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+.P_Image{
+    width: 350px;
+    height: 350px;
+    animation: NFloat 5s infinite ;
+}
+.P_Text_Frame{
+    text-align: center;
+margin-top: 7%;
+color: #f1f1f1;
+}
 
 
 
@@ -333,4 +382,47 @@ color: #f1f1f1;
   
   .Click_Me_Github:not([disabled]):hover {
     box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(0, 0, 0, 0.5), .125rem .125rem 1rem rgba(44, 43, 43, 0.5);
+  }
+
+
+
+  /*************Mobile Media***/
+  @media (max-width: 992px) {
+    .S_Grid{
+        margin-left: 5%;
+        display: grid;
+        margin-bottom: 35px;
+        grid-template-columns: none;
+    }
+    .S_Image{
+        width: 150px;
+        animation: mymove 5s infinite;
+        margin: auto;
+        border-radius: 50%;
+    }
+    .S_Line2{
+        margin-bottom: 35px;
+        margin-left: 0%;
+    }
+
+
+    /******Mobile Section Third(3)*******/
+    .T_Grid{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .T_EmptyCircle{
+        margin-left: 3%;
+        height: 150px;
+      width: 150px;
+      background-image: linear-gradient(rgb(235, 88, 240), rgb(47, 0, 255));
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .P_Grid{
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: none;
+    }
+    
   }

@@ -39,9 +39,8 @@ export function Vishal_Home() {
   return (
     
     < >
-
-          
-      {/*<Navigation/>*/}
+ 
+      <Navigation/>
          <Box className={Vishal.Conatiner_Background_Property_}>
           <section className={Vishal.Main_Frame}>
             <div className={Vishal.Main_Text}>
@@ -93,6 +92,24 @@ JavaScript, Python, Java, Nodejs, Express.js, EJS and much more etc.. </h1>
           <span className={Vishal.T_EmptyCircle}></span>
           </div>
 </Box>
+      </section>
+      {/****Projects Section******************/}
+      <section className={Vishal.Projects_Section}>
+        <Box className={Vishal.P_Grid}>
+          <div className={Vishal.P_Image}>
+            <img className={ Vishal.P_Image} src="/images/Projects.png" alt="" />
+          </div>
+          <div className={Vishal.P_Text_Frame}>
+          <h1 className={Vishal.T_Head}>Projects</h1>
+            Hey Aren't You Execited To View Some More Cool Stuffs and Projects which Are Just Incredible?
+              Lets Explore Some More Cool Stuffs <br />
+              <button className={Vishal.Click_Me} role="button">Projects</button>
+          </div>
+
+        </Box>
+        <Box>
+
+        </Box>
       </section>
         </>
     )
