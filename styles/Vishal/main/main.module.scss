@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     backdrop-filter: blur(300px);
     animation: ChangeBackground 10s infinite;
     
@@ -189,8 +189,19 @@ border-radius: 50%;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font: optional;
+    margin-top: 100px;
 }
-
+.Uni_Headings{
+    backdrop-filter: blur(1px) ;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-size:40px;
+    margin-top: 5%;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: optional;
+    
+}
 
 
 

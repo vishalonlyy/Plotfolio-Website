@@ -61,7 +61,7 @@ export function Vishal_Home() {
 
       </Box>
       <section className={Vishal.Section_Second}>
-      <Heading size='md' fontSize='30px' color={'purple.400'} className={Vishal.headings}>Introduction</Heading>
+      <Heading size='md' fontSize='30px' color={'purple.400'} className={Vishal.Uni_Headings}>Introduction</Heading>
         <Box className={Vishal.S_Grid}>
          
           <div className={Vishal.S_Image}>
