@@ -64,8 +64,13 @@ export function Vishal_Home() {
       <Heading size='md' fontSize='30px' color={'purple.400'} className={Vishal.headings}>Introduction</Heading>
         <Box className={Vishal.S_Grid}>
          
-        <div className={Vishal.S_Image}>
-            <img className={Vishal.S_Image} src="/images/Vishal.jpg" alt="" />  
+          <div className={Vishal.S_Image}>
+          <Image className={Vishal.S_Image}
+      src="/images/Vishal.jpg"
+      alt=""
+      
+    />
+
 </div>
           <div className={Vishal.S_Text_Frame}>
             <h1 className={Vishal.S_Main_Text}>hellow My self Vishal</h1>
@@ -97,7 +102,7 @@ JavaScript, Python, Java, Nodejs, Express.js, EJS and much more etc.. </h1>
       <section className={Vishal.Projects_Section}>
         <Box className={Vishal.P_Grid}>
           <div className={Vishal.P_Image}>
-            <img className={ Vishal.P_Image} src="/images/Projects.png" alt="" />
+            <Image className={ Vishal.P_Image} src="/images/Projects.png" alt="" />
           </div>
           <div className={Vishal.P_Text_Frame}>
           <h1 className={Vishal.T_Head}>Projects</h1>
