@@ -45,7 +45,7 @@ export function Vishal_Home() {
           <section className={Vishal.Main_Frame}>
             <div className={Vishal.Main_Text}>
             <h1 className={Vishal.headings}>Hey There! 👋 </h1>
-            <h2 className={Vishal.Intro_1}>I'am Vishal </h2>
+            <h2 className={Vishal.Intro_1}>I&apos;am Vishal </h2>
             {/**<h2 className={Vishal.Intro_2}></h2>*/}
             <h3 className={Vishal.h3}>
  <span className={Vishal.span}>Developer, Coder, Web Developer, Full stack, Backend Developer</span>
@@ -84,7 +84,7 @@ JavaScript, Python, Java, Nodejs, Express.js, EJS and much more etc.. </h1>
             <h1 className={Vishal.T_Head}>Check It Out</h1>
             Get Your Own Portfolio Website Contact Now For Free
             Or Get it From Our Github Page <br />
-            <button className={Vishal.Click_Me} role="button">Contact Us</button> ‍  ‍  ‍ 
+            <button className={Vishal.Click_Me} role="button">Contact Us</button>
             <button className={Vishal.Click_Me_Github} role="button">Github</button>
           </div>
 
@@ -101,7 +101,7 @@ JavaScript, Python, Java, Nodejs, Express.js, EJS and much more etc.. </h1>
           </div>
           <div className={Vishal.P_Text_Frame}>
           <h1 className={Vishal.T_Head}>Projects</h1>
-            Hey Aren't You Execited To View Some More Cool Stuffs and Projects which Are Just Incredible?
+            Hey Aren&apos;t You Execited To View Some More Cool Stuffs and Projects which Are Just Incredible?
               Lets Explore Some More Cool Stuffs <br />
               <button className={Vishal.Click_Me} role="button">Projects</button>
           </div>
