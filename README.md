@@ -3,6 +3,8 @@
 
 <p>Run this Commands in your Terminal</p>
 Install Yarn:<code>npm install --global yarn</code>
+Install Next and React : <code>yarn add next</code> & <code>yarn add react</code>
+Install Chakara : <code>yarn add @chakra-ui/icons</code> & <code> yarn add @chakra-ui</code>
 
 Next :: You Need to run ```Yarn``` or ```npm i``` or ```yarn add``` to get all the dependencies Installed
 
