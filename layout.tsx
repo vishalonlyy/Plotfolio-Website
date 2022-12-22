@@ -1,13 +1,13 @@
 import { AnalyticsWrapper } from './components/analytics';
 
-export default function RootLayout({ children }) {
+export default function RootLayout({  }) {
   return (
     <html lang="en">
       <head>
         <title>Next.js</title>
       </head>
       <body>
-        {children}
+        
         <AnalyticsWrapper />
       </body>
     </html>
