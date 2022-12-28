@@ -17,9 +17,8 @@ Next Open any browser and go to the location Mentioned in terminal<br /><br />
 ```http://localhost:3000```<br /><br />
 
 
-```Removing credits will result in a copy write```:Contact Us to chnage it [its free]<br />
+```Removing credits will result in a copy write```:Contact Us to chnage it [its free]<br /><br />
 |--------------------|
 |  Version  |  v0.1.1|
 |  Open     |   ✅  |
 |  Can Edit |   ✅  |
-|--------------------|
