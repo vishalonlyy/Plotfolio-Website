@@ -18,8 +18,7 @@ Next Open any browser and go to the location Mentioned in terminal<br /><br />
 
 
 ```Removing credits will result in a copy write```:Contact Us to chnage it [its free]<br /><br />
-
 |--------------------|
-|  Version | v1.0.0 |
+|  Version | v1.0.0  |
 |  Open    | ✅     |
 |  Can Edit | ✅    |
