@@ -1,6 +1,6 @@
 <h1>Follow Steps In Order to get The Server Running</h1><br />
 <p>We are gonna use YARN as Our Runner && You Must have Node.js Installed </p><br />
-<h2> Preview </h2>
+<h2> ✨Preview✨ </h2>
 <h3>
 https://vishal.grufy.me/</h3>
 <p>Run this Commands in your Terminal</p><br /><br />
