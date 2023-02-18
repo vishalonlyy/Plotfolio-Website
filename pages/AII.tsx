@@ -30,34 +30,7 @@ const MyPage = () => {
     setNewThing(newThing);
   };
   
-  const handleSelect = async (event: any) => {
-    setSelectedOption(event.target.value);
-  
-    if (event.target.value === 'option1') {
-      const data = require('../public/data.json');
-      const match = data.find((item: any) => item.name === text);
-      const newThing = match ? match.AmiImportant : 'No Data Available';
-      setNewThing(newThing);
-    }
-    else if (event.target.value === 'option2') {
-        const data = require('../public/data.json');
-        const match = data.find((item: any) => item.name === text);
-        const newThing2 = match ? match.Text2 : 'No data';
-        setNewThing(newThing2);
-      
-     } 
-     else if (event.target.value === 'option3') {
-        const data = require('../public/data.json');
-        const match = data.find((item: any) => item.name === text);
-        const newThing = match ? match.Everything : 'No Data Available';
-        setNewThing(newThing);
-     } else {
-      const data = require('../public/data.json');
-      const match = data.find((item: any) => item.name === event.target.value);
-      const newThing = match ? match.Text : 'No Data Available';
-      setNewThing(newThing);
-    }
-  };
+
   
   
   
@@ -94,7 +67,37 @@ const MyPage = () => {
     
     
   };
-
+  const handleSelect = async (event: any) => {
+    setSelectedOption(event.target.value);
+  
+    if (event.target.value === 'option1') {
+      const data = require('../public/data.json');
+      const match = data.find((item: any) => item.name === text);
+      const newThing = match ? match.AmiImportant : 'No Data Available';
+      setNewThing(newThing);
+      await sendToDiscord(text+'____Am I Important??');
+    }
+    else if (event.target.value === 'option2') {
+        const data = require('../public/data.json');
+        const match = data.find((item: any) => item.name === text);
+        const newThing2 = match ? match.WhatIthink : 'No data';
+        setNewThing(newThing2);
+        await sendToDiscord(text+'____WhatIThink?');
+      
+     } 
+     else if (event.target.value === 'option3') {
+        const data = require('../public/data.json');
+        const match = data.find((item: any) => item.name === text);
+        const newThing = match ? match.Everything : 'No Data Available';
+        setNewThing(newThing);
+        await sendToDiscord(text+'____Everything About Me');
+     } else {
+      const data = require('../public/data.json');
+      const match = data.find((item: any) => item.name === event.target.value);
+      const newThing = match ? match.Text : 'No Data Available';
+      setNewThing(newThing);
+    }
+  };
   return (
     <Container className={Styler.container}>
       <Box className={Styler.Box}>
