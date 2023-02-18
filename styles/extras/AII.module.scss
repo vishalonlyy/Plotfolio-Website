@@ -1,0 +1,127 @@
+
+
+.body{
+    background-color: #ccc;
+}
+.container{
+    background-color: #202122;
+}
+.Box{
+    background-color: #202122;
+}
+
+.TextBox{display: grid;
+    grid-template-columns: 50%;
+    width: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.Input{
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+.P{
+    color: black;
+    font-size: medium;
+    font-weight: bolde;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Textl{
+    background-color: aquamarine;
+}
+
+.DisplayTextBox{
+    background-color: #f2f2f2;
+    width: auto;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+.ButtonStyle{
+    justify-content: center;
+    margin-left: 47%;
+}
+/* CSS */
+ 
+
+
+/* CSS */
+.Button {
+  background-color: #b9bdb7a8;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 25px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.Button:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.Button:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+
+
+
+.SelectInput{
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.Text{
+    color: wheat;
+    text-align: center;
+    background-color: #724d4d2d;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
