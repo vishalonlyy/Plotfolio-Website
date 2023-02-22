@@ -17,6 +17,22 @@
       "AmiImportant":"Yes,You are Important to me as a memorable friend/Sister in my Life"
     },
     {
+      "name": "Bhoomika",
+      "greeting": "Hellow! Sister",
+      "Text":"So Actually You Can Also Select the option Below Our Just Select Everything Which will display Everything I think About You",
+      "Everything":"Displaying Everything Vishal Thinks About You >My Self Chatty Bot(My Intro)<\nUnable To Display\n\nNO Data Available Fetching Insta Chats To Let You Know what Vishal Thinks About You",
+      "WhatIthink":"NO data Available fetching insta Chats Will be updated in the next Hr Come Back in an Hour",
+      "AmiImportant":"I As This Model does not Think You are important"
+    },
+    {
+      "name": "Rushabh",
+      "greeting": "Hellow",
+      "Text":"So Actually You Can Also Select the option Below Our Just Select Everything Which will display Everything I think About You",
+      "Everything":"Displaying Everything Vishal Thinks About You >My Self Chatty Bot(My Intro) Unable To Display\n\nNO Data Available Fetching Insta Chats To Let You Know what Vishal Thinks About You",
+      "WhatIthink":"NO data Available fetching insta Chats Will be updated in the next Hr Come Back in an Hour",
+      "AmiImportant":"Yes You are "
+    },
+    {
       "name": "Jane",
       "greeting": "Hi Jane!"
     }

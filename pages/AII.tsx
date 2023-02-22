@@ -73,14 +73,14 @@ const MyPage = () => {
     if (event.target.value === 'option1') {
       const data = require('../public/data.json');
       const match = data.find((item: any) => item.name === text);
-      const newThing = match ? match.AmiImportant : 'No Data Available';
+      const newThing = match ? match.AmiImportant : `No Data Available Do You Want The Data Related ?\n\n::  Is ${text} Important??`;
       setNewThing(newThing);
       await sendToDiscord(text+'____Am I Important??');
     }
     else if (event.target.value === 'option2') {
         const data = require('../public/data.json');
         const match = data.find((item: any) => item.name === text);
-        const newThing2 = match ? match.WhatIthink : 'No data';
+        const newThing2 = match ? match.WhatIthink : `No Data Available Do You Want The Data Related ?\n\n::  What Vishal Thinks, about ${text}?`;
         setNewThing(newThing2);
         await sendToDiscord(text+'____WhatIThink?');
       
@@ -88,13 +88,13 @@ const MyPage = () => {
      else if (event.target.value === 'option3') {
         const data = require('../public/data.json');
         const match = data.find((item: any) => item.name === text);
-        const newThing = match ? match.Everything : 'No Data Available';
+        const newThing = match ? match.Everything : `No Data Available Do You Want The Data Related ?\n\n::  Everything About ${text}:Vishal Thinks? `;
         setNewThing(newThing);
         await sendToDiscord(text+'____Everything About Me');
      } else {
       const data = require('../public/data.json');
       const match = data.find((item: any) => item.name === event.target.value);
-      const newThing = match ? match.Text : 'No Data Available';
+      const newThing = match ? match.Text : `No Data Available For ${text} Do You want ? My System can create based on Chats`;
       setNewThing(newThing);
     }
   };
