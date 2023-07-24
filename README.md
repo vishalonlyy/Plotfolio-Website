@@ -2,7 +2,7 @@
 <p>We are gonna use YARN as Our Runner && You Must have Node.js Installed </p><br />
 <h2> ✨Preview✨ </h2> 
 <h3>
-https://vishal.grufy.me/</h3>
+https://vishalorg.me/</h3>
 <p>Run this Commands in your Terminal</p><br /><br />
 Install Yarn:<code>npm install --global yarn</code><br /><br />
 Install Next and React : <code>yarn add next</code> & <code>yarn add react</code><br /><br />
