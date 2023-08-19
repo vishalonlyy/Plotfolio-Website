@@ -1,5 +1,5 @@
 <h1>Follow Below Steps In Order to get The Server Running</h1><br />
-<p>We are gonna use YARN as Our Runner && You Must have Node.js Installed </p><br />
+<p>We are gonna use YARN as Our Runner && You Must have Node.js Installed </p><br/>
 <h2> ✨Preview✨ </h2>  
 <h3>
 https://plotfolio-website.vercel.app/</h3>
